@@ -31,6 +31,7 @@ const Project = () => {
                 <div className="box-border w-full flex items-center justify-center rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-[0.5s]">
                   <ProjectCard
                     key={items.name}
+                    title = {items.title}
                     name={items.name}
                     image={items.image}
                     techStack={items.stack}

@@ -6,7 +6,8 @@ import * as React from 'react';
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-function ProjectCard({ 
+function ProjectCard({
+  title, 
     name,
     description,
     image,
@@ -39,8 +40,8 @@ function ProjectCard({
       <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-orange-400"></div>
       <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
     </div>
-    <p className="text-center ml-3 text-[#16f2b3] text-base text-sm lg:text-xl font-cyberpunk color-sunset">
-      {name}
+    <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl font-cyberpunk color-sunset">
+      {title}
     </p>
   </div>
 
@@ -92,6 +93,7 @@ function ProjectCard({
 };
 
 ProjectCard.propTypes = {
+  title : PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,

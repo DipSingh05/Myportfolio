@@ -34,6 +34,7 @@ const about = {
 };
 const projects = [
   {
+    title: "ApnaVote",
     name: "ApnaVote---AI-Ml-and-Blockchain-Based-Python-Desktop-Tkinter-Project",
     description:
       "ApnaVote is a secure Python-based voting app using Tkinter, AI/ML, Firebase, and blockchain. It enables one-time voting with AI facial verification and tamper-proof blockchain storage. Firebase manages voter and candidate data, while smart contracts handle real-time results and candidate updates.",
@@ -43,6 +44,7 @@ const projects = [
     livePreview:"https://github.com/user-attachments/assets/c81b4913-2c12-49ad-ab97-d63ab8656ad1",
   },
   {
+    title: "Snapmeet",
     name: "Snapmeet - A Cutting-Edge Communication Platform",
     description:
       "Snapmeet is a cutting-edge communication platform offering high-quality video calls, instant messaging, live chat and video translation, screen sharing, document sharing, speech recognition, and emoji support. It seamlessly connects users worldwide with advanced features for a superior communication experience.",
@@ -52,6 +54,7 @@ const projects = [
     livePreview:"https://github.com/user-attachments/assets/5a347323-0ccd-4707-8996-d465996de856",
   },
   {
+    itle: "MyWeather",
     name: "Weather App",
     description:
       "This Weather App is made in Java using Java swing component and Openweathermap API for the data.",
@@ -61,6 +64,7 @@ const projects = [
     livePreview:"https://github.com/user-attachments/assets/d2d9b1f6-8ea4-4765-8c19-d1ebb2df4ae7",
   },
   {
+    itle: "Wildlife Classification",
     name: "Wildlife Classification & Detection Using AI/ML",
     description:
       "This project aims to use articial intelligence and machine learning for wildlife species classication and detection using image recognition and deep learning models.",
