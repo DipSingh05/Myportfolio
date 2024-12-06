@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wave {
+  display: inline-block;
+  animation: wave-animation 2s infinite;
+  transform-origin: 70% 70%; /* Adjusts the origin for the rotation */
+}
+.font-cyberpunk{
+  font-family:'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', monospace;
+}
+.color-sunset{
+  color: #ff865b;
+}
+html,
+body {
+  background-color: #121c22;
+  color: white;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  
+}
+/* Hide scrollbar but enable scrolling */
+.scroll-container {
+  overflow-y: scroll; /* Enable vertical scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Returns to original position */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.card {
+  overflow: hidden;
+}
+
+figure img {
+  transition: transform 0.7s ease-in-out;
+}
+
+figure img:hover {
+  transform: scale(1.1);
+}
+
+#sticky-card-1 {
+  --index: 1;
+}
+
+#sticky-card-2 {
+  --index: 2;
+}
+
+#sticky-card-3 {
+  --index: 3;
+}
+
+#sticky-card-4 {
+  --index: 4;
+}
+
+.sticky-card {
+  padding-top: calc(var(--index) * 2rem);
+  top: calc(var(--index) * 4rem);
+}
