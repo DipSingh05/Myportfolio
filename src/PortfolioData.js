@@ -26,7 +26,7 @@ const about = {
   description:
     "I am an aspiring full-stack developer with a focus on the MERN stack, experienced in creating responsive and interactive web applications. Passionate about exploring emerging technologies and maintaining clean, efficient code practices, I recently completed my Master of Computer Applications. I am now seeking a challenging role in software development to leverage my expertise in Python, AI, and web development, contributing to impactful and innovative projects that support organizational success.",
   resume:
-    "https://drive.google.com/file/d/1_d6Pz38f6UpRw_vt7XMgoihJp7-AhyKy/view?usp=sharing",
+    "https://drive.google.com/file/d/1-2taaTHo_OSFgAu3ZUQj0h1SLCK4YlMo/view?usp=sharing",
   social: {
     linkedin: "https://www.linkedin.com/in/diptomansingh/",
     github: "https://github.com/DipSingh05/",
@@ -181,11 +181,13 @@ const educations = [
   }
 ]
 
+// const resume = "https://app.enhancv.com/share/901be431/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic"
+
 const progress = [
   { "title": "Problem Solving & Decision Making", "value": 85, "level":"Proficient"},
-  { "title": "Creativity & Innovation ", "value": 70, "level":"Proficient" },
-  { "title": "Adaptability & Upgradability ", "value": 88, "level":"Advance" },
-  { "title": "Focus & Management ", "value": 80, "level":"Proficient" },
+  { "title": "Creativity & Innovation", "value": 70, "level":"Proficient" },
+  { "title": "Adaptability & Upgradability", "value": 88, "level":"Advance" },
+  { "title": "Focus & Management", "value": 80, "level":"Proficient" },
   { "title": "Team Leadership and Collaboration", "value": 90, "level":"Advance" },
   { "title": "Time Management and Task Prioritization", "value": 95, "level":"Advance" }
 ]
