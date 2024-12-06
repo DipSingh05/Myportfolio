@@ -4,7 +4,11 @@ My first **minimal**, **customizable**, **blazingly fast**, and **SEO-friendly**
 
 ## Project Overview
 
-<img src="./public/mockup.png">
+
+
+https://github.com/user-attachments/assets/b07ec8ac-51f6-4548-be0f-b0bb8c7aa1f2
+
+
 
 I have developed this portfolio website with **React**, **Tailwind CSS**, and **Daisy UI**. 🎨✨  
 Using **Vite** as a bundler, which is fast and helps with project setup. ⚡️
@@ -22,6 +26,9 @@ Using **Vite** as a bundler, which is fast and helps with project setup. ⚡️
   - Tailwind CSS
   - Daisy UI
 - For TyperWriter Effect I used **TypeWriter library**
+
+- ![portfolio-0](https://github.com/user-attachments/assets/7ffa787b-ed40-4dd7-aed0-42a8ef72db96)
+
 
 ## 🔧 Fork and Customize
 
