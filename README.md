@@ -63,8 +63,8 @@ If you'd like to create your own version of this portfolio, you can **fork** thi
 ## Contribution
 
 - Contributions are welcome! If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
-- Refer to [Contribution](./CONTRIBUTING.md) for more information.
 
-##
+## License
 
-- If you use or build upon this project, giving credit would be appreciated! You can mention me in your project or provide a link back to the original repository. 😊
+- MIT License
+
