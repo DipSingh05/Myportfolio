@@ -1,6 +1,6 @@
 
 import { projects } from "../PortfolioData";
-import ProjectCard from "./Projectcard";
+import ProjectCard from "./ProjectCard";
 const Project = () => {
 
   return (
